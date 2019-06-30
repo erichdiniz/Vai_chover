@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30DFBFA522C901D300E97EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFBFA422C901D300E97EC8 /* AppDelegate.swift */; };
+		30DFBFA722C901D300E97EC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFBFA622C901D300E97EC8 /* ViewController.swift */; };
+		30DFBFAA22C901D300E97EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DFBFA822C901D300E97EC8 /* Main.storyboard */; };
+		30DFBFAD22C901D300E97EC8 /* Vai_Chover.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30DFBFAB22C901D300E97EC8 /* Vai_Chover.xcdatamodeld */; };
+		30DFBFAF22C901D600E97EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DFBFAE22C901D600E97EC8 /* Assets.xcassets */; };
+		30DFBFB222C901D600E97EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DFBFB022C901D600E97EC8 /* LaunchScreen.storyboard */; };
+		30DFBFBD22C901D600E97EC8 /* Vai_ChoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFBFBC22C901D600E97EC8 /* Vai_ChoverTests.swift */; };
+		30DFBFC822C901D600E97EC8 /* Vai_ChoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFBFC722C901D600E97EC8 /* Vai_ChoverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30DFBFB922C901D600E97EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30DFBF9922C901D300E97EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30DFBFA022C901D300E97EC8;
+			remoteInfo = "Vai Chover";
+		};
+		30DFBFC422C901D600E97EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30DFBF9922C901D300E97EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30DFBFA022C901D300E97EC8;
+			remoteInfo = "Vai Chover";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30DFBFA122C901D300E97EC8 /* Vai Chover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vai Chover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DFBFA422C901D300E97EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30DFBFA622C901D300E97EC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30DFBFA922C901D300E97EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30DFBFAC22C901D300E97EC8 /* Vai_Chover.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vai_Chover.xcdatamodel; sourceTree = "<group>"; };
+		30DFBFAE22C901D600E97EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30DFBFB122C901D600E97EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30DFBFB322C901D600E97EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DFBFB822C901D600E97EC8 /* Vai ChoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vai ChoverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DFBFBC22C901D600E97EC8 /* Vai_ChoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vai_ChoverTests.swift; sourceTree = "<group>"; };
+		30DFBFBE22C901D600E97EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DFBFC322C901D600E97EC8 /* Vai ChoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vai ChoverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DFBFC722C901D600E97EC8 /* Vai_ChoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vai_ChoverUITests.swift; sourceTree = "<group>"; };
+		30DFBFC922C901D600E97EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30DFBF9E22C901D300E97EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DFBFB522C901D600E97EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DFBFC022C901D600E97EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30DFBF9822C901D300E97EC8 = {
+			isa = PBXGroup;
+			children = (
+				30DFBFA322C901D300E97EC8 /* Vai Chover */,
+				30DFBFBB22C901D600E97EC8 /* Vai ChoverTests */,
+				30DFBFC622C901D600E97EC8 /* Vai ChoverUITests */,
+				30DFBFA222C901D300E97EC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30DFBFA222C901D300E97EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBFA122C901D300E97EC8 /* Vai Chover.app */,
+				30DFBFB822C901D600E97EC8 /* Vai ChoverTests.xctest */,
+				30DFBFC322C901D600E97EC8 /* Vai ChoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30DFBFA322C901D300E97EC8 /* Vai Chover */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBFA422C901D300E97EC8 /* AppDelegate.swift */,
+				30DFBFA622C901D300E97EC8 /* ViewController.swift */,
+				30DFBFA822C901D300E97EC8 /* Main.storyboard */,
+				30DFBFAE22C901D600E97EC8 /* Assets.xcassets */,
+				30DFBFB022C901D600E97EC8 /* LaunchScreen.storyboard */,
+				30DFBFB322C901D600E97EC8 /* Info.plist */,
+				30DFBFAB22C901D300E97EC8 /* Vai_Chover.xcdatamodeld */,
+			);
+			path = "Vai Chover";
+			sourceTree = "<group>";
+		};
+		30DFBFBB22C901D600E97EC8 /* Vai ChoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBFBC22C901D600E97EC8 /* Vai_ChoverTests.swift */,
+				30DFBFBE22C901D600E97EC8 /* Info.plist */,
+			);
+			path = "Vai ChoverTests";
+			sourceTree = "<group>";
+		};
+		30DFBFC622C901D600E97EC8 /* Vai ChoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBFC722C901D600E97EC8 /* Vai_ChoverUITests.swift */,
+				30DFBFC922C901D600E97EC8 /* Info.plist */,
+			);
+			path = "Vai ChoverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30DFBFA022C901D300E97EC8 /* Vai Chover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DFBFCC22C901D600E97EC8 /* Build configuration list for PBXNativeTarget "Vai Chover" */;
+			buildPhases = (
+				30DFBF9D22C901D300E97EC8 /* Sources */,
+				30DFBF9E22C901D300E97EC8 /* Frameworks */,
+				30DFBF9F22C901D300E97EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vai Chover";
+			productName = "Vai Chover";
+			productReference = 30DFBFA122C901D300E97EC8 /* Vai Chover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30DFBFB722C901D600E97EC8 /* Vai ChoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DFBFCF22C901D600E97EC8 /* Build configuration list for PBXNativeTarget "Vai ChoverTests" */;
+			buildPhases = (
+				30DFBFB422C901D600E97EC8 /* Sources */,
+				30DFBFB522C901D600E97EC8 /* Frameworks */,
+				30DFBFB622C901D600E97EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30DFBFBA22C901D600E97EC8 /* PBXTargetDependency */,
+			);
+			name = "Vai ChoverTests";
+			productName = "Vai ChoverTests";
+			productReference = 30DFBFB822C901D600E97EC8 /* Vai ChoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30DFBFC222C901D600E97EC8 /* Vai ChoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DFBFD222C901D600E97EC8 /* Build configuration list for PBXNativeTarget "Vai ChoverUITests" */;
+			buildPhases = (
+				30DFBFBF22C901D600E97EC8 /* Sources */,
+				30DFBFC022C901D600E97EC8 /* Frameworks */,
+				30DFBFC122C901D600E97EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30DFBFC522C901D600E97EC8 /* PBXTargetDependency */,
+			);
+			name = "Vai ChoverUITests";
+			productName = "Vai ChoverUITests";
+			productReference = 30DFBFC322C901D600E97EC8 /* Vai ChoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30DFBF9922C901D300E97EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Erich Diniz";
+				TargetAttributes = {
+					30DFBFA022C901D300E97EC8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					30DFBFB722C901D600E97EC8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 30DFBFA022C901D300E97EC8;
+					};
+					30DFBFC222C901D600E97EC8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 30DFBFA022C901D300E97EC8;
+					};
+				};
+			};
+			buildConfigurationList = 30DFBF9C22C901D300E97EC8 /* Build configuration list for PBXProject "Vai Chover" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30DFBF9822C901D300E97EC8;
+			productRefGroup = 30DFBFA222C901D300E97EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30DFBFA022C901D300E97EC8 /* Vai Chover */,
+				30DFBFB722C901D600E97EC8 /* Vai ChoverTests */,
+				30DFBFC222C901D600E97EC8 /* Vai ChoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30DFBF9F22C901D300E97EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DFBFB222C901D600E97EC8 /* LaunchScreen.storyboard in Resources */,
+				30DFBFAF22C901D600E97EC8 /* Assets.xcassets in Resources */,
+				30DFBFAA22C901D300E97EC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DFBFB622C901D600E97EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DFBFC122C901D600E97EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30DFBF9D22C901D300E97EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DFBFA722C901D300E97EC8 /* ViewController.swift in Sources */,
+				30DFBFAD22C901D300E97EC8 /* Vai_Chover.xcdatamodeld in Sources */,
+				30DFBFA522C901D300E97EC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DFBFB422C901D600E97EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DFBFBD22C901D600E97EC8 /* Vai_ChoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DFBFBF22C901D600E97EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DFBFC822C901D600E97EC8 /* Vai_ChoverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30DFBFBA22C901D600E97EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30DFBFA022C901D300E97EC8 /* Vai Chover */;
+			targetProxy = 30DFBFB922C901D600E97EC8 /* PBXContainerItemProxy */;
+		};
+		30DFBFC522C901D600E97EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30DFBFA022C901D300E97EC8 /* Vai Chover */;
+			targetProxy = 30DFBFC422C901D600E97EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30DFBFA822C901D300E97EC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30DFBFA922C901D300E97EC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30DFBFB022C901D600E97EC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30DFBFB122C901D600E97EC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30DFBFCA22C901D600E97EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30DFBFCB22C901D600E97EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30DFBFCD22C901D600E97EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KTB7QA;
+				INFOPLIST_FILE = "Vai Chover/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Uxcelence.Vai-Chover";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30DFBFCE22C901D600E97EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KTB7QA;
+				INFOPLIST_FILE = "Vai Chover/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Uxcelence.Vai-Chover";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30DFBFD022C901D600E97EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KTB7QA;
+				INFOPLIST_FILE = "Vai ChoverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Uxcelence.Vai-ChoverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vai Chover.app/Vai Chover";
+			};
+			name = Debug;
+		};
+		30DFBFD122C901D600E97EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KTB7QA;
+				INFOPLIST_FILE = "Vai ChoverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Uxcelence.Vai-ChoverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vai Chover.app/Vai Chover";
+			};
+			name = Release;
+		};
+		30DFBFD322C901D600E97EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KTB7QA;
+				INFOPLIST_FILE = "Vai ChoverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Uxcelence.Vai-ChoverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vai Chover";
+			};
+			name = Debug;
+		};
+		30DFBFD422C901D600E97EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D562KTB7QA;
+				INFOPLIST_FILE = "Vai ChoverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Uxcelence.Vai-ChoverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vai Chover";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30DFBF9C22C901D300E97EC8 /* Build configuration list for PBXProject "Vai Chover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DFBFCA22C901D600E97EC8 /* Debug */,
+				30DFBFCB22C901D600E97EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DFBFCC22C901D600E97EC8 /* Build configuration list for PBXNativeTarget "Vai Chover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DFBFCD22C901D600E97EC8 /* Debug */,
+				30DFBFCE22C901D600E97EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DFBFCF22C901D600E97EC8 /* Build configuration list for PBXNativeTarget "Vai ChoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DFBFD022C901D600E97EC8 /* Debug */,
+				30DFBFD122C901D600E97EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DFBFD222C901D600E97EC8 /* Build configuration list for PBXNativeTarget "Vai ChoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DFBFD322C901D600E97EC8 /* Debug */,
+				30DFBFD422C901D600E97EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30DFBFAB22C901D300E97EC8 /* Vai_Chover.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30DFBFAC22C901D300E97EC8 /* Vai_Chover.xcdatamodel */,
+			);
+			currentVersion = 30DFBFAC22C901D300E97EC8 /* Vai_Chover.xcdatamodel */;
+			path = Vai_Chover.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30DFBF9922C901D300E97EC8 /* Project object */;
+}
